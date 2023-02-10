@@ -1,0 +1,75 @@
+* {
+    font-family: 'system-ui sans-serif';
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .bg-img {
+    background-color: rgb(160, 235, 235);
+    background-image: url('../assets/images/background.jpg');
+    /* background-repeat: no-repeat; */
+    background-blend-mode: lighten;              /* blends multiple overlapping color-images */
+    object-fit: cover;
+    background-image: url('../assets/images/pattern.jpg');
+    /* background-repeat: no-repeat; */
+    background-blend-mode: lighten;              /* blends multiple overlapping color-images */
+    object-fit: cover;
+  }
+  
+  .title {
+    padding-top: 0vh;
+  }
+  
+  .I-img-container {   /* image -> object-fit: contain*/
+    margin-top: 15vh;
+    padding-top: 0vh;
+    height: 60vh;
+  }
+  
+  .img-contain {
+    object-fit: contain;
+    height: 50vh;
+  }
+  
+  .feature-img-contain {
+    object-fit: contain;
+    height: 30vh;
+  }
+  
+  .m-bottom {
+    margin-bottom: 20vh;
+  }
+  
+  .m-feat {
+    margin-top: 8vh;
+  }
+  
+  .m-started {
+    margin-top: 10vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  
+  .img-dark-nav {
+    background-color: rgb(160, 235, 235);
+    background-image: url('../assets/images/pattern.jpg');
+    background-image: url('../assets/images/background.jpg');
+    /* background-repeat: no-repeat; */
+    background-blend-mode: lighten;              /* blends multiple overlapping color-images */
+    object-fit: cover;
+  }
+
+  

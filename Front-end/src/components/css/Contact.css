@@ -1,0 +1,34 @@
+.contactform{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 400px;
+    background-color: rgb(142, 233, 233);
+}
+
+#header{
+    text-align: center;
+    color: crimson;
+}
+
+#first{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+#second{
+    margin-left: 40px;
+}
+
+#submit{
+    margin-left: 80px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+}
+
+#submit:hover{
+    opacity: 0.7;
+}

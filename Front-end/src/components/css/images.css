@@ -1,0 +1,43 @@
+.img-sub-register {
+    object-fit: contain;
+    height: 60vh;
+    margin-top: 7vh;
+    margin-left: 4vw;
+}
+
+.img-main-contact {
+    object-fit: contain;
+    height: 50vh;
+    margin-left: 29vw;
+}
+
+.img-student-register {
+    object-fit: contain;
+    height: 75vh;
+    margin-top: 1vh;
+}
+
+.img-tutor {
+    object-fit: contain;
+    height: 50vh;
+    margin-top: 1vh;
+}
+
+/*To remove input: number arrows!*/
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.assessment-index-img {
+    object-fit: contain;
+    height: 40vh;    
+}
+
+.plot {
+    object-fit: contain;
+    height: 60vh
+}
